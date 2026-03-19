@@ -1,0 +1,13 @@
+:root {
+    --bg-color: rgb(67, 60, 76);
+    --text-color: white;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+a {
+    color: rgb(162, 158, 230);
+}
