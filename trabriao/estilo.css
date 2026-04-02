@@ -1,0 +1,81 @@
+:root {
+    --bg-color: rgb(67, 60, 76);
+    --card-bg: rgb(87, 80, 96);
+    --text-color: white;
+    --accent-color: rgb(162, 158, 230);
+    --btn-novo-color: #27ae60;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.btn-novo {
+    background-color: var(--btn-novo-color);
+    color: white !important;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Estilo da Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: rgba(0,0,0,0.2);
+    text-align: left;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+tr:hover {
+    background-color: rgba(255,255,255,0.05);
+}
+
+/*css do form na home.php*/
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form select {
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: var(--accent-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
